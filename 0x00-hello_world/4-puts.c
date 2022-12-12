@@ -2,10 +2,10 @@
 
 /**
  * prints "Programming is like building a multilingual puzzle
- * returns zeo id executed successfully
+ * returns zero if executed successfully
  */
 int main(void)
 {
       puts("\"Programming is like building a multilingual puzzle");
-      returns (0);
+      return (0);
 }

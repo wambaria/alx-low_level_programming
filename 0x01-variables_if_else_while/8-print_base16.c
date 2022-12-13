@@ -2,14 +2,14 @@
 
 /**
  * *main - prints all numbers of base 16 in lowercase
- * Return
+ * Return: Always 0 if successful
  */
 int main(void)
 {
 	int n;
 	char ch;
 
-	for (n = 60; n < 70; n++)
+	for (n = 48; n < 58; n++)
 	{
 		putchar(n);
 	}

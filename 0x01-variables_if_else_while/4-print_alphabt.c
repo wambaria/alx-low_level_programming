@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- *main - print alphabets in lowercase escept q and e 
- *Return: Always 0 (success)
+ * main - prints alphabets in lowercase
+ * Return: Always 0 if successful
  */
 int main(void)
 {

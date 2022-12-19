@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * rev_string - reverse string 
+ * rev_string - reverse string
  * @s: string 
  * Return: void
  */
@@ -20,7 +20,7 @@ void rev_string(char *s)
 	half = max/2;
 	while (half >= 0)
 	{
-		first =s[max -half];
+		first = s[max - half];
 		last = s[half];
 		s[half] = first;
 		s[max - half] = last;

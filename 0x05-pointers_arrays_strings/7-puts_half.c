@@ -2,8 +2,8 @@
 
 /**
  * puts_half - prints half of a string
- * @str: string 
- * @Return: no return 
+ * @str: string
+ * @Return: no return
  */
 
 void puts_half(char *str)
@@ -16,11 +16,11 @@ void puts_half(char *str)
 			break;
 		count++;
 	}
-	
+
 	if (count % 2 == 1)
 		i = count / 2;
 	else
-		i = (count -1) / 2;
+		i = (count - 1) / 2;
 
 	for (i++; i < count; i++)
 		_putchar(str[i]);

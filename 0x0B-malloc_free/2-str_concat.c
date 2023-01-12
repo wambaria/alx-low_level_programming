@@ -8,7 +8,7 @@
  *
  * Return: pointer to an array of characters
  */
-char *str_concat(char *s1 char *s2)
+char *str_concat(char *s1, char *s2)
 {
 	char strout;
 	unsigned_int i, j, k, limit;

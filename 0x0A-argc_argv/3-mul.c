@@ -7,13 +7,13 @@
  * Return: 0 - success
  */
 
-int main(int args, char *argv[])
+int main(int argc, char *argv[])
 {
-	if (args != 3)
+	if (argc != 3)
 	{
 		printf("Error\n");
 		return (1);
 	}
 	printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
-	returb (0);
+	return (0);
 }

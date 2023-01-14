@@ -1,7 +1,6 @@
 #ifndef _MAIN_H_
 #define _MAIN_H_
 
-int _putchar(char c);
-int check_num(char *str);
+int main(int argc __attribute__((unused)), char *argv[])
 
 #endif

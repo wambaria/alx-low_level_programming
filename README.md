@@ -1,1 +1,1 @@
-Intoduction to c debugging
+C structures, typedef

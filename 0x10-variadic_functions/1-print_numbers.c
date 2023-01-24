@@ -1,4 +1,4 @@
-#include "main.h"
+#include "variadic_functions.h"
 /**
  * print_numbers - print numbers
  * @separator: string to be separated
@@ -19,6 +19,6 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 			printf("%s", separator);
 	}
 
-	printf("%\n");
+	printf("\n");
 	va_end(valist);
 }

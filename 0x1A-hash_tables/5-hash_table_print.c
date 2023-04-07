@@ -1,7 +1,7 @@
 #include "hash_tables.h"
 
 /**
- * hash_table_get - retrieves a value
+ * hash_get - retrieves a value
  * @ht: table to look into
  * @key: key
  * Return: value associated with key
@@ -24,4 +24,3 @@ char *hash_table_get(const hash_table_t *ht, const char *key)
 	}
 	return (NULL);
 }
-
